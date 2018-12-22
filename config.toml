@@ -1,5 +1,5 @@
-baseURL = ""
-languageCode = "en-gb"
+baseURL = "https://smontague29.github.io/scottmontague/"
+languageCode = "en-us"
 title = "Scott Montague"
 theme = "terminal"
 author = "Scott Montague"
