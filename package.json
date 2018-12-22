@@ -1,0 +1,25 @@
+{
+  "name": "scott-montague-v1.0",
+  "version": "1.0.0",
+  "description": "Personal website and portfolio for Scott Montague",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack -p"
+  },
+  "author": "Scott Montague",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "ts-loader": "^2.2.2",
+    "typescript": "^2.4.1",
+    "webpack": "^3.2.0"
+  },
+  "dependencies": {
+    "ajv": "^6.6.2"
+  }
+}

@@ -1,0 +1,36 @@
+{{ partial "head.html" . }}
+<body>
+<div id="container">
+    {{ partial "main-nav.html" . }}
+    <section id="main" class="outer">
+        <div class="container">
+            <div class="jumbotron">
+                <div class="avatar-circle">
+                    <img src="assets/scott.jpg" class="me" style="width:210px;height:210px;">
+                </div>
+                <h1 data-type-effect="10">Scott Montague: Web Developer</h1>
+                <p class="lead" data-fade-in="100">Hi there! I'm a Full-Stack developer with a particular focus on the intersection of code and creativity. Feel free to explore various blog posts, connect on Twitter, or check out some of my other projects on GitHub!</p>
+
+                <div class="featured" data-fade-in="200">
+                    <h3>Featured Articles</h3>
+                    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+                    {{ if eq "categories" $taxonomyname }}
+                    {{ range $key, $value := $taxonomy }}
+                    {{ if eq $key "featured" }}
+                    <ul>
+                        {{ range $value.Pages }}
+                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{{ partial "ga.html" }}
+</body>
+</html>

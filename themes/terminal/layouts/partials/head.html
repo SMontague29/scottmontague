@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Title }}{{ if ne .Title .Site.Title }} // {{ .Site.Title }}{{ end }}</title>
+
+    {{ partial "meta.html" . }}
+    {{ partial "og.html" . }}
+
+    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    <link rel="shortcut icon" href="/favicon.png">
+
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+    <script src="{{ .Site.BaseURL }}js/script.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Fira+Mono' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+
+    {{ .Hugo.Generator }}
+</head>

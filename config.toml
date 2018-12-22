@@ -1,0 +1,38 @@
+baseURL = ""
+languageCode = "en-gb"
+title = "Scott Montague"
+theme = "terminal"
+author = "Scott Montague"
+description = "The portfolio and landing page for Scott Montague."
+metaDataFormat = "yaml"
+publishDir = "docs"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsStyle = "vs"
+
+[permalinks]
+  blog = "/:section/:title/"
+
+[Params]
+  Author = "Scott Montague"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[menu]
+  [[menu.main]]
+  identifier = "home"
+  name       = "Home"
+  url        = "/"
+  weight     = 1
+  [[menu.main]]
+  identifier = "blog"
+  name       = "Blog"
+  url        = "/blog/"
+  weight     = 2
+  [[menu.main]]
+  identifier = "project"
+  name       = "Projects"
+  url        = "/project/"
+  weight     = 3

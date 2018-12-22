@@ -1,0 +1,12 @@
+{{ partial "head.html" . }}
+<body>
+<div id="container">
+    {{ partial "main-nav.html" . }}
+    <section id="main" class="outer">
+        <h1 class="page-header" data-type-effect>{{ .Title }}</h1>
+        {{ .Content }}
+    </section>
+</div>
+{{ partial "ga.html" }}
+</body>
+</html>

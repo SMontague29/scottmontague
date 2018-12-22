@@ -1,0 +1,23 @@
+<article class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        {{ if .Title }}
+        <header class="article-header">
+            <h1 class="page-header" data-type-effect itemprop="name">{{ .Title }}</h1>
+        </header>
+        {{ end }}
+        <div class="article-meta">
+            <time datetime='{{ .Date.Format "2006-01-02T15:04:05.000-07:00" }}' itemprop="datePublished" class="date">{{ .Date.Format "02 Jan 2006" }}</time>
+            {{ partial "tag-list.html" .Params.tags }}
+        </div>
+        <div class="article-entry" itemprop="articleBody">
+            {{ .Content }}
+        </div>
+        <div class="article-footer">
+            Comments, questions, and feedback are welcome. You can <a href="mailto:SMontague29@gmail.com">email me</a> or contact me via <a href="https://twitter.com/SMontague29">Twitter</a>.
+            <span class="smallprint">
+                Last modified: {{ .Lastmod.Format "02 Jan 2006" }} | © Scott Montague {{ .Date.Format "2006" }} |
+                <a href="https://github.com/SMontague29/scottmontague/blob/master/content/blog/{{ .File.LogicalName }}">View the source of this page</a>
+            </span>
+        </div>
+    </div>
+</article>

@@ -1,0 +1,134 @@
+@import "variables";
+
+@import "home";
+@import "menu";
+@import "blog";
+@import "projects";
+@import "search";
+@import "icons";
+@import "type-effect";
+@import "pagination";
+@import "fade-in";
+@import "syntax";
+
+body {
+  background: $colour-main-view-bg;
+  font-family: $copy-font;
+  margin: 0;
+  @media (max-width: $screen-medium-below) {
+    font-size: 0.85em;
+  }
+}
+
+::selection {
+    background: transparentize(lighten($colour-a-link, 20%), 0.5);
+}
+
+::-moz-selection {
+    background: transparentize(lighten($colour-a-link, 20%), 0.5);
+}
+
+#container {
+  margin-bottom: 50px;
+  @media (min-width: $screen-medium) {
+    display: flex;
+  }
+}
+
+#main {
+  max-width: 100%;
+  @media (max-width: $screen-medium-below) {
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  @media (min-width: $screen-medium) {
+    flex-grow: 1;
+    max-width: calc(100vw - 300px);
+    margin-right: 2vw;
+  }
+  @media (min-width: $screen-large) {
+    margin-right: 8vw;
+  }
+  animation: fadeIn 0.6s;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $console-font;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+
+
+h1 {
+  @media (min-width: $screen-medium) {
+    font-size: 2.2em;
+  }
+}
+
+h2 {
+  @media (min-width: $screen-medium) {
+    font-size: 1.75em;
+  }
+}
+
+h3 {
+  @media (min-width: $screen-medium) {
+    font-size: 1.5em;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+code:not([class]) {
+  border: 1px solid #d1d1d1;
+  padding: 1px 3px;
+  background-color: #f0f0f0;
+}
+
+
+p, li {
+  line-height: 1.5em;
+  font-family: $copy-font;
+}
+
+blockquote {
+  border-left: 3px solid #ddd;
+  padding-left: 10px;
+}
+
+.no-bullet {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: $colour-a-link;
+}
+a:hover {
+  color: $colour-a-hover;
+}
+
+.page-header {
+  font-size: 2.4em;
+  margin-top: 25px;
+  margin-left: 38px;
+  @media (min-width: $screen-medium) {
+    font-size: 3em;
+    margin-left: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
