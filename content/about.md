@@ -1,18 +1,18 @@
 +++
-date = "2017-06-11T21:28:35+02:00"
+date = "2018-12-22T21:28:35+02:00"
 title = "About"
 layout = "about"
 [menu]
   [menu.main]
   identifier = "about"
   name       = "About"
-  url        = "/about/"
+  url        = "/scottmontague/about/"
   weight     = 4
 +++
 
 ### Hi! I'm a Full-Stack developer originally from Dallas, Texas! I am currently living in Seattle, Washington.
 
-{{< figure src="/assets/Belle.jpg" title="Me and my little girl Belle on the way back from swimming" >}}
+{{< figure src="/docs/assets/Belle.jpg" title="Me and my little girl Belle on the way back from swimming" >}}
 
 I've been fascinated by technology and computers since I got my first PC to share with my brother and sister. Currently I mostly do front-end web development and specialize in JavaScript and some of it's associated libraries like Node and Angular.
 
