@@ -14,9 +14,9 @@ layout = "about"
 
 {{< figure src="/scottmontague/assets/Belle.jpg" title="Me and my little girl Belle on the way back from swimming" >}}
 
-I've been fascinated by technology and computers since I got my first PC to share with my brother and sister. Currently I mostly do front-end web development and specialize in JavaScript and some of it's associated libraries like Node and Angular.
+I've been fascinated by technology and computers since I got my first PC to share with my brother and sister. I currently work mostly in front-end web development and specialize in JavaScript and some of it's associated libraries like Node and Angular, as well as effective templating tools like TypeScript.
 
-When I'm not spending time with my Golden Retriever Belle, I enjoy making music, playing video games, and watching Dallas sports. I am constantly trying to find where code can intersect with these interests and create a deeper appreciation for them.
+When I'm not spending time with my Golden Retriever Belle, I enjoy making music, playing sports, and watching movies or tv shows. I am constantly trying to find where code can intersect with these interests and create a deeper appreciation for them.
 
 If you'd like to get in touch, [email me](mailto:SMontague29@gmail.com) or, for a faster but possibly less thoughtful response, hit me up on [twitter](https://twitter.com/SMontague29).
 
