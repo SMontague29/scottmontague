@@ -1,6 +1,6 @@
 # scottmontague.com
 
-This is the source code and raw content of my personal website and portfolio, located at https://www.scottmontague.tech
+This is the source code and raw content of my personal website and portfolio, located at https://www.scottpmontague.com
 It is built with [Hugo](https://gohugo.io/).
 
 ## Dev Build
