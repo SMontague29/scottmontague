@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Scott Montague</title>
-    <link>/project/</link>
+    <link>https://smontague29.github.io/scottmontague/project/</link>
     <description>Recent content in Projects on Scott Montague</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
+    <language>en-us</language>
     <lastBuildDate>Sat, 19 Aug 2017 10:10:08 +0000</lastBuildDate>
     
-	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://smontague29.github.io/scottmontague/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Know your Rep, Do your Prep</title>
-      <link>/project/2017-08-09-voter-app/</link>
+      <link>https://smontague29.github.io/scottmontague/project/2017-08-09-voter-app/</link>
       <pubDate>Sat, 19 Aug 2017 10:10:08 +0000</pubDate>
       
-      <guid>/project/2017-08-09-voter-app/</guid>
+      <guid>https://smontague29.github.io/scottmontague/project/2017-08-09-voter-app/</guid>
       <description>This was a project I helped build with some colleagues in my Bootcamp. I took the lead on the JavaScript file and also contributed a small amount of time to building the necessary HTML.
 I have a working example of this app located here.</description>
     </item>

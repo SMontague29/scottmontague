@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Scott Montague</title>
-    <link>/categories/</link>
+    <link>https://smontague29.github.io/scottmontague/categories/</link>
     <description>Recent content in Categories on Scott Montague</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
+    <language>en-us</language>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://smontague29.github.io/scottmontague/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Project</title>
-      <link>/categories/project/</link>
+      <link>https://smontague29.github.io/scottmontague/categories/project/</link>
       <pubDate>Sat, 19 Aug 2017 10:10:08 +0000</pubDate>
       
-      <guid>/categories/project/</guid>
+      <guid>https://smontague29.github.io/scottmontague/categories/project/</guid>
       <description></description>
     </item>
     

@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scott Montague</title>
-    <link>/</link>
+    <link>https://smontague29.github.io/scottmontague/</link>
     <description>Recent content on Scott Montague</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
+    <language>en-us</language>
     <lastBuildDate>Sat, 19 Aug 2017 10:10:08 +0000</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+	<atom:link href="https://smontague29.github.io/scottmontague/index.xml" rel="self" type="application/rss+xml" />
+
+
     <item>
       <title>Know your Rep, Do your Prep</title>
-      <link>/project/2017-08-09-voter-app/</link>
+      <link>https://smontague29.github.io/scottmontague/project/2017-08-09-voter-app/</link>
       <pubDate>Sat, 19 Aug 2017 10:10:08 +0000</pubDate>
-      
-      <guid>/project/2017-08-09-voter-app/</guid>
+
+      <guid>https://smontague29.github.io/scottmontague/project/2017-08-09-voter-app/</guid>
       <description>This was a project I helped build with some colleagues in my Bootcamp. I took the lead on the JavaScript file and also contributed a small amount of time to building the necessary HTML.
 I have a working example of this app located here.</description>
     </item>
-    
+
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>https://smontague29.github.io/scottmontague/about/</link>
       <pubDate>Sun, 11 Jun 2017 21:28:35 +0200</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Hi! I&amp;rsquo;m a Full-Stack developer originally from Dallas, Texas! I am currently living in Seattle, Washington.   Me and my little girl Belle on the way back from swimming   I&amp;rsquo;ve been fascinated by technology and computers since I got my first PC to share with my brother and sister. Currently I mostly do front-end web development and specialize in JavaScript and some of it&amp;rsquo;s associated libraries like Node and Angular.</description>
+
+      <guid>https://smontague29.github.io/scottmontague/about/</guid>
+      <description>Hi! I&amp;rsquo;m a Full-Stack developer originally from Dallas, Texas! I am currently living in Seattle, Washington.   Me and my little girl Belle on the way back from swimming   I&amp;rsquo;ve been fascinated by technology and computers since I got my first PC to share with my brother and sister. I currently work mostly in front-end web development and specialize in JavaScript and some of it&amp;rsquo;s associated libraries like Node and Angular, as well as effective templating tools like TypeScript.</description>
     </item>
-    
+
   </channel>
 </rss>

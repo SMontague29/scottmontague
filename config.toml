@@ -1,24 +1,91 @@
-baseURL = "https://smontague29.github.io/scottmontague/"
-languageCode = "en-us"
+# The URL of your website.
+# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+baseurl = "https://scottpmontague.com"
+
+# Title of your site
 title = "Scott Montague"
+
+# Your copyright notice - appears in site footer.
+# To display a copyright symbol, type `&copy;`.
+copyright = "&copy; Scott Montague 2018"
+
 theme = "terminal"
-author = "Scott Montague"
-description = "The portfolio and landing page for Scott Montague."
-metaDataFormat = "yaml"
-publishDir = "docs"
-pygmentsCodeFences = true
-pygmentsUseClasses = true
-pygmentsStyle = "vs"
+enableEmoji = true
+footnotereturnlinkcontents = "<sup>^</sup>"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+#preserveTaxonomyNames = true
+paginate = 10
 
-[permalinks]
-  blog = "/:section/:title/"
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = "UA-131319950-1"
 
-[Params]
-  Author = "Scott Montague"
+# Get last modified date for content from Git?
+enableGitInfo = true
 
-[taxonomies]
-  tag = "tags"
-  category = "categories"
+[outputs]
+  home = [ "HTML", "CSS", "RSS" ]
+  section = [ "HTML", "RSS" ]
+
+# Configure BlackFriday Markdown rendering.
+#   See: https://gohugo.io/readfiles/bfconfig/
+[blackfriday]
+  hrefTargetBlank = true  # `true` opens external links in a new tab.
+  fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
+  smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
+
+[params]
+  # Your details.
+  name = "Scott Montague"
+  bio = "Hi there! I'm a Full-Stack developer with a particular focus on the intersection of code and creativity. Feel free to explore various blog posts, connect on Twitter, or check out some of my other projects on GitHub!"
+
+  avatar = "scott.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+
+  location = "Seattle"
+
+  # Discussion link (e.g. link to a forum, mailing list, or chat).
+  #   Uncomment line below to use.
+  #   discussion = { name = "Discuss", url = "https://discourse.gohugo.io" }
+
+  # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "Jan 2, 2006"
+  #   Examples: "3:04 pm" or "15:04"
+  time_format = "3:04 PM"
+
+  # Display comment count? Requires commenting to be enabled.
+  comment_count = false
+
+  # Enable native social sharing buttons?
+  sharing = true
+
+  # Privacy pack
+  #   Show a cookie consent message to visitors
+  #   Anonymize IP in Google Analytics (if enabled)
+  privacy_pack = false
+
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "//linkedin.com/in/scott-montague"
+    text = "LinkedIn"
+
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/SMontague29"
+    text = "Twitter"
+
+  [[params.social]]
+    icon = "github"
+    icon_pack = "fa"
+    link = "//github.com/SMontague29"
+    text = "Github"
+
+# Taxonomies.
+# [taxonomies]
+#   tag = "tags"
+#   category = "categories"
+#   publication_type = "publication_types"
 
 [menu]
   [[menu.main]]

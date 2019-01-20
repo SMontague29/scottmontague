@@ -1,6 +1,6 @@
 .idea
 node_modules
-themes/terminal/static/css
 themes/terminal/static/js
+themes/terminal/static/css
 public
 deploy.sh
