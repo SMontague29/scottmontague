@@ -6,10 +6,19 @@
     <description>Recent content in Projects on Scott Montague</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Aug 2017 10:10:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Oct 2017 10:10:08 +0000</lastBuildDate>
     
 	<atom:link href="https://smontague29.github.io/scottmontague/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pet O Pair</title>
+      <link>https://smontague29.github.io/scottmontague/project/2017-10-12-petopair/</link>
+      <pubDate>Thu, 12 Oct 2017 10:10:08 +0000</pubDate>
+      
+      <guid>https://smontague29.github.io/scottmontague/project/2017-10-12-petopair/</guid>
+      <description>This was a project I helped build with some colleagues in my Bootcamp. I took the lead on the JavaScript file and also contributed a small amount of time to building the necessary HTML.</description>
+    </item>
     
     <item>
       <title>Know your Rep, Do your Prep</title>
@@ -17,8 +26,7 @@
       <pubDate>Sat, 19 Aug 2017 10:10:08 +0000</pubDate>
       
       <guid>https://smontague29.github.io/scottmontague/project/2017-08-09-voter-app/</guid>
-      <description>This was a project I helped build with some colleagues in my Bootcamp. I took the lead on the JavaScript file and also contributed a small amount of time to building the necessary HTML.
-I have a working example of this app located here.</description>
+      <description>This is the first project I built with a few colleagues of mine in our Bootcamp. I took lead on writing our JavaScript while offering minor input on how we consumed API&amp;rsquo;s.</description>
     </item>
     
   </channel>
