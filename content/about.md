@@ -6,7 +6,7 @@ layout = "about"
   [menu.main]
   identifier = "about"
   name       = "About"
-  url        = "/about/"
+  url        = "/scottmontague/about/"
   weight     = 4
 +++
 
