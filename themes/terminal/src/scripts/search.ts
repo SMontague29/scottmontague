@@ -79,7 +79,7 @@ export function initSearch() {
     }
 
     function closeModal() {
-        // setTimeout handles weird race conditions when clicking an item link
+
         setTimeout(() => {
             searchModal.classList.remove(DISPLAY_CLASS);
             closing = true;
@@ -96,9 +96,6 @@ export function initSearch() {
     }
 }
 
-/**
- * Returns a list of all suggestions.
- */
 function getAllSuggestions(): Suggestion[] {
     return toArray(document.querySelectorAll('.suggestion'))
         .map((el: HTMLElement) => {
@@ -143,18 +140,14 @@ function renderSuggestions(suggestions: Suggestion[], selectedIndex?: number): v
         });
 }
 
-/**
- * Removes all children from a node
- */
+
 function removeAllChildren(node: Element): void {
     while(node.hasChildNodes()) {
         node.removeChild(node.lastChild);
     }
 }
 
-/**
- * Returns an li element with the given text as innerText, and a link to the suggestion url.
- */
+
 function createListItem(suggestion: Suggestion): HTMLLIElement {
     const li = document.createElement('li');
     const a = document.createElement('a');
